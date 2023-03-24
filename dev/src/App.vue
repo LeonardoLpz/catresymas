@@ -41,7 +41,7 @@ header{
 .divider{
   height: 17px;
   width: 100%;
-  background-color: rgb(239, 127, 0);
+  background-color: var(--anaranjado);
 }
 .banner{
   width: 100%;
