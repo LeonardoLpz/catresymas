@@ -1,11 +1,14 @@
 <script setup>
+import EnvioGratis from "./EnvioGratis.vue"
+import ProductosItem from "./ProductosItem.vue"
 </script>
+
 
 <template>
   <div class="productosSection">
     <h2>PRODUCTOS</h2>
-
-    <img src="@/assets/nosotros/B-2.jpg" alt="Catre">
+    <productos-item/>
+    <envio-gratis/>
   </div>
 </template>
 

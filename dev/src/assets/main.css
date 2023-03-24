@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
-
+:root {
+    --anaranjado: #F58634;
+    --verde: #ADD144;
+    --gris:rgb(235, 232, 232);
+}
 * {
     margin: 0;
     font-family: 'Poppins', sans-serif;

@@ -4,6 +4,9 @@ import FuncionalidadSection from './components/FuncionalidadSection.vue';
 import InicioSection from './components/InicioSection.vue';
 import NosotrosSection from './components/NosotrosSection.vue';
 import ProductosSection from './components/ProductosSection.vue';
+import PedidosSection from './components/PedidosSection.vue';
+import FormularioSection from './components/FormularioSection.vue';
+import ContactoSection from './components/ContactoSection.vue';
 </script>
 
 <template>
@@ -21,6 +24,10 @@ import ProductosSection from './components/ProductosSection.vue';
     <nosotros-section/>
     <funcionalidad-section/>
     <productos-section/>
+    <pedidos-section/>
+    <formulario-section/>
+    <img src="@/assets/B-3.jpg" alt="banner" class="banner">
+    <contacto-section/>
   </div>
 </template>
 
@@ -36,7 +43,9 @@ header{
   width: 100%;
   background-color: rgb(239, 127, 0);
 }
-
+.banner{
+  width: 100%;
+}
 @media (min-width: 1024px) {
 
 }

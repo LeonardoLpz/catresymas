@@ -16,6 +16,7 @@
       ya sea para uso doméstico, 
       comercial o industrial. 
     </p>
+    <br>
     <h2>NUESTROS VALORES</h2>
     <p>
       Calidad, responsabilidad, 

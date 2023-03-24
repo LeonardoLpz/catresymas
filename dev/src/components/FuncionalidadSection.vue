@@ -32,7 +32,7 @@
 .funcionalidadSection{
   text-align: center;
   padding: 16px;
-  background-color: rgb(255, 119, 0);
+  background-color: var(--anaranjado);
   color:white;
   font-weight: 400;
 }
