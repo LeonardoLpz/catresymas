@@ -31,10 +31,17 @@
 <style scoped>
 .funcionalidadSection{
   text-align: center;
-  padding: 16px;
+  padding: 3vw;
   background-color: var(--anaranjado);
   color:white;
   font-weight: 400;
+}
+h2{
+  font-size: 3vw;
+}
+p{
+  font-size: 2.5vw;
+  margin: auto;
 }
 @media (min-width: 1024px) {
 

@@ -57,6 +57,13 @@ img{
   margin-top: 16px;
   font-weight: bold;
 }
+h2{
+  font-size: 3vw;
+}
+p{
+  font-size: 2.5vw;
+  margin: auto;
+}
 @media (min-width: 1024px) {
 
 }

@@ -15,13 +15,16 @@ import ProductosItem from "./ProductosItem.vue"
 <style scoped>
 .productosSection{
   text-align: center;
-  padding: 16px;
+  padding: 3vw;
   background-color: rgb(235, 232, 232);
   font-weight: 400;
 }
 img{
   margin-top: 16px;
   width: 100%;
+}
+h2{
+  font-size: 3vw;
 }
 @media (min-width: 1024px) {
 

@@ -38,7 +38,7 @@ img{
   width: 100%;
 }
 h2,p{
-  font-size: 12px;
+  font-size: 3;
 }
 @media (min-width: 1024px) {
 

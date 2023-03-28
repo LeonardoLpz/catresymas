@@ -15,6 +15,9 @@
   color:white;
   font-weight: 400;
 }
+h2{
+  font-size: 3vw;
+}
 @media (min-width: 1024px) {
 
 }

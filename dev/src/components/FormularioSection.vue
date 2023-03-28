@@ -69,6 +69,9 @@ form{
   color: white;
   margin-top: 10px;
 }
+label, input,button{
+  font-size: 2vw;
+}
 @media (min-width: 1024px) {
 
 }

@@ -18,11 +18,13 @@
   border-radius: 20px;
 }
 h3{
+  font-size: 2vw;
   font-weight: normal;
 }
 h3:nth-of-type(2){
-  font-size: 24px;
+  font-size: 3vw;
 }
+
 @media (min-width: 1024px) {
 
 }

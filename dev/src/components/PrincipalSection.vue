@@ -24,7 +24,7 @@
   padding: 16px;
 }
 .logoMain{
-  width:300px;
+  width:50vw;
   justify-self: center;
   margin-bottom: 16px;
 }
@@ -33,10 +33,10 @@ h1,h2{
   text-align: center;
 }
 h2{
-  font-size: 12px;
+  font-size: 3vw;
 }
 h1{
-  font-size: 16px;
+  font-size: 4vw;
   font-style: italic;
 }
 .principalBanner{
@@ -47,8 +47,9 @@ h1{
   margin-top: 16px;
 }
 .principalBanner-item{
-  width: 100px;
+  width: 30vw;
 }
+
 @media (min-width: 1024px) {
 
 }
