@@ -17,7 +17,7 @@
       <p>9:00 am a 4:00pm</p>
       <a href="https://wa.me/525547408539" class="whatsappButton"><img src="@/assets/WhatsAppButtonGreenMedium.png" alt=""></a>      <p>Teléfono:</p>
       <a href="tel:+525547408539"> 55 4740 8539</a>
-      <a href="ventas@catresymas.com">ventas@catresymas.com</a>
+      <a href="mailto:ventas@catresymas.com">ventas@catresymas.com</a>
       <br>
       
 
