@@ -6,30 +6,29 @@
     <form action="">
       <div class="inputItem">
         <label for="Nombre">Nombre</label>
-      <input type="text" name="Nombre" id="name">
+      <input type="text" name="Nombre" id="name" required>
       </div>
       <div class="inputItem">
         <label for="Tel">Movil</label>
-      <input type="tel" name="Tel" id="tel">
+      <input type="tel" name="Tel" id="tel" required>
       </div>
       <div class="inputItem">
         <label for="Email">Email</label>
-      <input type="email" name="Email" id="email">
+      <input type="email" name="Email" id="email" required>
       </div>
       <div class="inputItem">
         <label for="Producto">Producto</label>
-      <input type="text" name="Producto" id="producto">
+      <input type="text" name="Producto" id="producto" required>
       </div>
       <div class="inputItem">
         <label for="Piezas">Piezas</label>
-      <input type="number" name="Piezas" id="piezas">
+      <input type="number" name="Piezas" id="piezas" required>
       </div>
       <div class="inputItem">
         <label for="Comentarios">Comentarios y dudas</label>
-      <input type="text" name="Comentarios" id="comentarios">
+      <input type="text" name="Comentarios" id="comentarios" required>
       </div>
-      
-      <input type="submit" value="Enviar" class="button">
+      <button type="submi" class="button">Enviar</button>
     </form>
     
   </div>
@@ -69,10 +68,21 @@ form{
   color: white;
   margin-top: 10px;
 }
-label, input,button{
-  font-size: 2vw;
-}
-@media (min-width: 1024px) {
 
+@media (min-width: 1024px) {
+  label, input,button{
+    font-size: 2vw;
+  }
+  form{
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  .inputItem{
+    width: 90%;
+    justify-self: center;
+  }
+  .button{
+    grid-column: 2;
+  }
 }
 </style>

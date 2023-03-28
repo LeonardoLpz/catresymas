@@ -16,6 +16,7 @@
       ya sea para uso doméstico, 
       comercial o industrial. 
     </p>
+    
     <br>
     <h2>NUESTROS VALORES</h2>
     <p>
@@ -24,6 +25,7 @@
       practicidad, honestidad y respeto. 
     </p>
     <img src="@/assets/nosotros/B-2.jpg" alt="Catre">
+    
   </div>
 </template>
 
@@ -35,17 +37,16 @@
   font-weight: 400;
 }
 img{
-  margin-top: 16px;
+  margin-top: 3vw;
   width: 100%;
 }
-h2{
-  font-size: 3vw;
-}
-p{
-  font-size: 2.5vw;
-  margin: auto;
-}
 @media (min-width: 1024px) {
-
+  h2{
+    font-size: 3vw;
+  }
+  p{
+    font-size: 2vw;
+    margin: auto;
+  }
 }
 </style>

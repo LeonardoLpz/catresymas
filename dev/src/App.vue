@@ -24,10 +24,12 @@ import ContactoSection from './components/ContactoSection.vue';
     <nosotros-section/>
     <funcionalidad-section/>
     <productos-section/>
-    <pedidos-section/>
-    <formulario-section/>
+    <pedidos-section v-if="false"/>
+    <formulario-section v-if="false"/>
     <img src="@/assets/B-3.jpg" alt="banner" class="banner">
     <contacto-section/>
+   
+
   </div>
 </template>
 
@@ -46,6 +48,7 @@ header{
 .banner{
   width: 100%;
 }
+
 @media (min-width: 1024px) {
 
 }

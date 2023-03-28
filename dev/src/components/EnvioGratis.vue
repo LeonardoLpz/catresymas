@@ -11,21 +11,29 @@
 
 <style scoped>
 .envioGratis{
-  width: 250px;
+  max-width: 480px;
+  min-width: 240px;
+  width: 70%;
   padding: 16px;
   border: solid black 1px;
   margin: auto;
   border-radius: 20px;
 }
 h3{
-  font-size: 2vw;
+  font-size: 18px;
   font-weight: normal;
 }
 h3:nth-of-type(2){
-  font-size: 3vw;
+  font-size: 26px;
 }
 
 @media (min-width: 1024px) {
-
+  h3{
+    font-size: 2vw;
+    font-weight: normal;
+  }
+  h3:nth-of-type(2){
+    font-size: 3vw;
+  }
 }
 </style>

@@ -24,9 +24,11 @@ img{
   width: 100%;
 }
 h2{
-  font-size: 3vw;
+  font-size: 18px;
 }
 @media (min-width: 1024px) {
-
+  h2{
+    font-size: 3vw;
+  }
 }
 </style>
